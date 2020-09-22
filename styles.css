@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.logo{
+    font-family: 'Satisfy', cursive;
+}
+
+.shopping-cart{
+    max-width: 30px;
+}
