@@ -7,3 +7,9 @@
 .shopping-cart{
     max-width: 30px;
 }
+.price{
+    font-weight: bold;
+}
+.distance{
+    margin-bottom: 3%;
+}
