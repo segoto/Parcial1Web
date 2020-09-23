@@ -33,31 +33,28 @@
                     </ul>
                 </nav>
             </header>
-            <section>
-                <div class="row justify-content-center">
-                    <img src="https://i.imgur.com/S8Ffdqa.png" class="img-fluid" alt="Responsive image" />
-                </div>
-            </section>
-
+            <div class="row justify-content-center">
+                <img src="https://i.imgur.com/S8Ffdqa.png" class="img-fluid" alt="Responsive image" />
+            </div>
             <hr />
-            <section>
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#navbarNavDropdown"
-                        aria-controls="navbarNavDropdown"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0" id="categories"></ul>
-                    </div>
-                </nav>
-            </section>
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0" id="categories"></ul>
+                </div>
+            </nav>
+
             <hr />
             <section>
                 <div class="row justify-content-center">
@@ -67,12 +64,10 @@
                 <div class="row" id="products-orderDetail"></div>
             </section>
             <footer>
-                <div class="row justify-content-center">
-                    Contact us: +57 3102105253 - info@restaurant.com - @restaurant
-                </div>
+                <div class="row justify-content-center">Contact us: +57 3102105253 - info@restaurant.com - @restaurant</div>
             </footer>
         </div>
-        
+
         <div class="modal fade" id="cancelModal" tabindex="-1" role="dialog" aria-labelledby="cancelModal" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -86,7 +81,9 @@
                     <div class="modal-footer">
                         <div class="row justify-content-end">
                             <div class="col-12 row justify-content-end">
-                                <button type="button" class="btn btn-light" id="cancelOrder" data-dismiss="modal" onclick="cancelOrder()">Yes, I want to cancel the order</button>
+                                <button type="button" class="btn btn-light" id="cancelOrder" data-dismiss="modal" onclick="cancelOrder()">
+                                    Yes, I want to cancel the order
+                                </button>
                             </div>
                             <div class="col-12 row justify-content-end">
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">No, I want continue adding products</button>
